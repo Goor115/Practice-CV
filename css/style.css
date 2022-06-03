@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&family=Open+Sans:wght@700&display=swap');
+
 html {
 	box-sizing: border-box;
 }
@@ -107,20 +108,32 @@ html {
 }
 
 .decor-text-about {
+  display: inline-block;
   text-decoration: none;
   color: #3f3f40;
   font-size: 10px;
+  width: 90px;
+  margin-top: 15px;
+
 }
 
-.nav {
-  width: 92px;
+.logo-bar {
+  width: 12px;
+  margin-left: 4px;
+  margin-right: 8px;
+  margin-top: 15px;
 }
 
-/*right bar*/
+.follow-me {
+  margin-top: 15px;
+}
+
+/*right section*/
 .tagline {
   width: 415px;
 }
 
 .img-logo {
   width: 95px;
+
 }
