@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;500;800&family=Open+Sans:wght@400;700&display=swap');
 
 html {
 	box-sizing: border-box;
@@ -172,6 +172,17 @@ html {
 .img-logo {
   display: inline-block;
   width: 23px;
+  outline: solid red;
+}
+
+.aaa {
+display: inline-block;
+
+outline: solid red;
+}
+
+.logo {
+  outline: solid red;
 }
 
 .subtitle {
@@ -192,4 +203,18 @@ html {
   font-weight: 400;
   width: 330px;
   text-align: justify;
+}
+
+.subtitle-h3 {
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  color: #3f3f40;
+  font-weight: 700;
+}
+
+.date {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #3f3f40;
+  font-size: 8px;
 }
